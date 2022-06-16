@@ -1,1 +1,84 @@
+html {
+    scroll-behavior: smooth
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    height: auto;
+    width: 75%;
+    border-radius:10px;
+}
+
+body {
+    background-color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size:20px;
+    
+}
+
+#movie-grid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#search-grid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* id is hashtag */
+#my-form {
+    padding:20px;
+}
+#close-search-btn {
+    margin-right:5px;
+    margin-left:auto;
+    /* padding:10px; */
+    font-size:20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.broad-close {
+    padding:20px;
+}
+
+.load-more-movies-btn {
+    margin-right:auto;
+    margin-left:auto;
+}  
+
+.movie-card {
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+  
+}
+
+.movie-card .movie-poster:hover {
+    transform: translate3d(0px, -6px, 0px);
+    transition-duration:0.75s
+}  
+
+#load-more-movies-btn {
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size:20px;
+    background-color:transparent;
+    outline:none;
+
+}
+
+.load-more {
+    display: flex;
+    justify-content: center;
+}
+
 
