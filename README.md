@@ -4,7 +4,7 @@ Submitted by: **Hannah Zhou**
 
 Estimated time spent: **15** hours spent in total
 
-Deployed Application: [Site] (https://hannahgz.github.io/flixster_starter/)
+Deployed Application: [Site](https://hannahgz.github.io/flixster_starter/)
 
 ### Application Features
 
