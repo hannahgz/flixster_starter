@@ -8,11 +8,15 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <h1>FLIXSTER</h1>
+    
+    <h1>
+        FLIXSTER
+    </h1>
 
     <div>
         <form id="my-form">
-            <label for="gifs">Search:</label>
+            <!-- <img src = "search.svg" id = "search"> -->
+            <label for="gifs">SEARCH</label>
             <input type="text" id="search-input" required/>
         </form>
     </div>
@@ -20,7 +24,14 @@
     <div class="broad-close">
         <button id='close-search-btn' onclick="closeSearch()">Close</button>
     </div>
-    
+
+
+    <div id = 'popup' style="
+        align-items:center;
+    ">
+        
+    </div>
+
 
     <div id = 'movie-grid' style="
         display: grid;
@@ -34,11 +45,14 @@
         grid-template-columns: 1fr 1fr 1fr;">
     </div>
 
+    
+
     <div class="load-more">
         <button id="load-more-movies-btn" onclick="loadMore()">Load More</button>
     </div>
     
 
-    <script src="script.js"></script>
+   
 </body>
+<script src="script.js"></script>
 </html>
