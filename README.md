@@ -40,6 +40,8 @@ Deployed Application: [Site](https://hannahgz.github.io/flixster_starter/)
 
 ### Walkthrough Video
 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/26664975/174403820-2ff5d8e0-a775-4956-9393-d56608ca18e5.gif)
+
 
 ### Reflection
 
