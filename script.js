@@ -83,7 +83,11 @@ function displayMovieSearch(movie) {
 async function popupFunction(id) {
     let response = await fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=${apiKey}&language=en-US`)
     let movie = await response.json()
-    
+    let genres = ""
+    movie["genres"].forEach(element => {
+        genres = genres + element["name"] + "/"
+    })
+    genres = genres.substring(0, genres.length - 1)
     popupElement.style.display = "grid";
     popupElement.innerHTML = popupElement.innerHTML + `
     <div id = "popup-card">
@@ -93,7 +97,9 @@ async function popupFunction(id) {
         </p>
         <p>
             Budget: $${movie.budget} | Revenue: $${movie.revenue} | Runtime: ${movie.runtime} min
-
+        </p>
+        <p>
+            Genres: ${genres}
         </p>
         <p>
             ${movie.overview}
@@ -109,7 +115,6 @@ async function popupFunction(id) {
 
     </div>
     `
-    console.log("actually reached")
 }
 
 function loadMore() {

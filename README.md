@@ -4,7 +4,7 @@ Submitted by: **Hannah Zhou**
 
 Estimated time spent: **15** hours spent in total
 
-Deployed Application (optional): [](https://hannahgz.github.io/flixster_starter/)
+Deployed Application (optional): [Link Here] (https://hannahgz.github.io/flixster_starter/)
 
 ### Application Features
 
@@ -40,8 +40,6 @@ Deployed Application (optional): [](https://hannahgz.github.io/flixster_starter/
 
 ### Walkthrough Video
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
-
 `ADD_EMBEDDED_CODE_HERE`
 
 ### Reflection
@@ -56,7 +54,7 @@ If I had more time I would have liked to add another feature that would let user
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Overall, my project demo went as planned! 
+Overall, my project demo went as planned! I was pretty pleased with how users were able to learn more about the movies through watching the movie trailers. One of my peers Caroline had a feature where the search would auto populate as the user tried different searches. I would love to try this next time.
 
 
 ### Open-source libraries used
